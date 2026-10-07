@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Samsung Galaxy S25",
+      "sku": "SAM-S25-001",
+      "price": 79999,
+      "originalPrice": 84999,
+      "stock": 25,
+      "category": "Mobiles",
+      "brand": "Samsung",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "description": "Samsung Galaxy S25 smartphone",
+      "attributes": {
+        "RAM": "12GB",
+        "Storage": "256GB",
+        "Color": "Black"
+      }
+    },
+    {
+      "id": "P002",
+      "name": "iPhone 17",
+      "sku": "IPH-17-001",
+      "price": 89999,
+      "originalPrice": 94999,
+      "stock": 15,
+      "category": "Mobiles",
+      "brand": "Apple",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
+      "description": "Apple iPhone",
+      "attributes": {
+        "Storage": "256GB",
+        "Color": "Blue"
+      }
+    }
+  ],
+  "categories": [
+    "Mobiles",
+    "Smartphones",
+    "Samsung",
+    "Apple"
+  ]
+}
