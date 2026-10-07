@@ -1,291 +1,3672 @@
 {
+  "seller": {
+    "id": "SELLER-001",
+    "name": "Kavi Furniture",
+    "category": "Furniture",
+    "catalogVersion": "1.0"
+  },
+  "categories": [
+    "Sofas",
+    "Beds",
+    "Wardrobes",
+    "Dining Tables",
+    "Chairs",
+    "Office Furniture",
+    "TV Units",
+    "Coffee Tables",
+    "Bookshelves",
+    "Storage"
+  ],
   "products": [
     {
-      "id": "P001",
-      "name": "Samsung Galaxy S25",
-      "sku": "SAM-S25-001",
-      "brand": "Samsung",
-      "category": "Mobiles",
-
-      "price": 79999,
-      "originalPrice": 84999,
-      "discountPercentage": 6,
+      "id": "FUR-001",
+      "sku": "SOF-MOD-001",
+      "name": "Modern 3 Seater Sofa",
+      "brand": "Kavi Furniture",
+      "category": "Sofas",
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 18,
       "currency": "INR",
-
-      "stock": 25,
+      "stock": 12,
       "availability": "In Stock",
-
-      "shortDescription": "Premium 5G smartphone with advanced camera and powerful performance.",
-
-      "description": "Samsung Galaxy S25 is a premium smartphone designed for high performance, photography, entertainment and everyday productivity.",
-
-      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-
+      "shortDescription": "Premium sofas designed for modern homes and offices.",
+      "description": "Modern 3 Seater Sofa made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-1.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd"
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-001-5.jpg"
       ],
-
       "specifications": {
-        "Display": "6.2 inch Dynamic AMOLED 2X",
-        "Resolution": "2340 x 1080 pixels",
-        "RefreshRate": "120 Hz",
-        "Processor": "Qualcomm Snapdragon",
-        "RAM": "12 GB",
-        "Storage": "256 GB",
-        "ExpandableStorage": "Not Supported",
-        "OperatingSystem": "Android",
-        "OSVersion": "Android 15",
-        "RearCamera": "50 MP + 12 MP + 10 MP",
-        "FrontCamera": "12 MP",
-        "VideoRecording": "8K Video Recording",
-        "Battery": "4000 mAh",
-        "Charging": "Fast Charging",
-        "WirelessCharging": "Supported",
-        "Network": "5G",
-        "SIM": "Dual SIM",
-        "WiFi": "Wi-Fi 7",
-        "Bluetooth": "Bluetooth 5.4",
-        "USB": "USB Type-C",
-        "NFC": "Supported",
-        "FingerprintSensor": "Under Display",
-        "WaterResistance": "IP68"
+        "ProductType": "3 Seater",
+        "Material": "Fabric",
+        "PrimaryColor": "Grey",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "3 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
       },
-
-      "attributes": {
-        "Color": "Black",
-        "Material": "Glass and Aluminium",
-        "ModelNumber": "SM-S931B",
-        "FormFactor": "Touchscreen Smartphone"
-      },
-
-      "cameraDetails": {
-        "RearCamera": {
-          "Main": "50 MP",
-          "UltraWide": "12 MP",
-          "Telephoto": "10 MP",
-          "Features": [
-            "OIS",
-            "Night Mode",
-            "HDR",
-            "Portrait Mode",
-            "AI Camera"
-          ]
-        },
-        "FrontCamera": {
-          "Resolution": "12 MP",
-          "Features": [
-            "HDR",
-            "Portrait Mode",
-            "4K Video"
-          ]
-        }
-      },
-
-      "batteryDetails": {
-        "Capacity": "4000 mAh",
-        "Charging": "Fast Charging",
-        "WirelessCharging": "Yes",
-        "BatteryType": "Lithium Ion"
-      },
-
       "dimensions": {
-        "Height": "146.9 mm",
-        "Width": "70.5 mm",
-        "Thickness": "7.2 mm",
-        "Weight": "162 g"
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
       },
-
       "manufacturerInformation": {
-        "Manufacturer": "Samsung Electronics",
-        "CountryOfOrigin": "South Korea",
-        "ManufacturedBy": "Samsung Electronics",
-        "Importer": "Samsung India Electronics Pvt. Ltd.",
-        "Brand": "Samsung"
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
       },
-
       "warranty": {
         "WarrantyPeriod": "1 Year",
         "WarrantyType": "Manufacturer Warranty",
         "WarrantyCoverage": "Manufacturing defects",
-        "ServiceType": "Authorized Samsung Service Center"
+        "ServiceType": "Seller service"
       },
-
       "boxContents": [
-        "Samsung Galaxy S25",
-        "USB Type-C Cable",
-        "SIM Ejector Tool",
-        "Quick Start Guide",
+        "Modern 3 Seater Sofa",
+        "Assembly Hardware",
+        "Assembly Instructions",
         "Warranty Card"
       ],
-
       "itemDetails": {
-        "ItemType": "Smartphone",
-        "ModelName": "Galaxy S25",
-        "ModelYear": "2025",
-        "CountryOfOrigin": "South Korea",
+        "ItemType": "Sofas",
+        "ModelName": "Modern 3 Seater Sofa",
         "ProductCondition": "New",
+        "CountryOfOrigin": "India",
         "SuitableFor": [
-          "Personal Use",
-          "Business",
-          "Gaming",
-          "Photography",
-          "Entertainment"
+          "Home",
+          "Office"
         ]
       },
-
       "sellerInformation": {
         "sellerId": "SELLER-001",
-        "sellerName": "Kavi Mobiles",
+        "sellerName": "Kavi Furniture",
         "sellerRating": 4.6
       }
     },
-
     {
-      "id": "P002",
-      "name": "iPhone 17",
-      "sku": "IPH-17-001",
-      "brand": "Apple",
-      "category": "Mobiles",
-
-      "price": 89999,
-      "originalPrice": 94999,
-      "discountPercentage": 5,
+      "id": "FUR-002",
+      "sku": "SOF-LSH-002",
+      "name": "L Shape Corner Sofa",
+      "brand": "Kavi Furniture",
+      "category": "Sofas",
+      "price": 42999,
+      "originalPrice": 49999,
+      "discountPercentage": 14,
       "currency": "INR",
-
-      "stock": 15,
+      "stock": 8,
       "availability": "In Stock",
-
-      "shortDescription": "Premium Apple smartphone with advanced camera, powerful processor and 5G connectivity.",
-
-      "description": "iPhone 17 is a premium smartphone designed for photography, performance, entertainment and everyday use.",
-
-      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
-
+      "shortDescription": "Premium sofas designed for modern homes and offices.",
+      "description": "L Shape Corner Sofa made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-1.jpg",
       "images": [
-        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-002-5.jpg"
       ],
-
       "specifications": {
-        "Display": "6.3 inch Super Retina XDR",
-        "Resolution": "2622 x 1206 pixels",
-        "RefreshRate": "120 Hz",
-        "Processor": "Apple A19",
-        "RAM": "8 GB",
-        "Storage": "256 GB",
-        "ExpandableStorage": "Not Supported",
-        "OperatingSystem": "iOS",
-        "OSVersion": "iOS 26",
-        "RearCamera": "48 MP + 48 MP",
-        "FrontCamera": "24 MP",
-        "VideoRecording": "4K Video Recording",
-        "Battery": "Built-in Rechargeable Battery",
-        "Charging": "Fast Charging",
-        "WirelessCharging": "MagSafe Supported",
-        "Network": "5G",
-        "SIM": "Dual SIM / eSIM",
-        "WiFi": "Wi-Fi",
-        "Bluetooth": "Bluetooth",
-        "USB": "USB Type-C",
-        "NFC": "Supported",
-        "FaceID": "Supported",
-        "WaterResistance": "IP68"
+        "ProductType": "L Shape",
+        "Material": "Fabric",
+        "PrimaryColor": "Dark Grey",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
       },
-
-      "attributes": {
-        "Color": "Blue",
-        "Material": "Aluminium and Glass",
-        "ModelNumber": "A0000",
-        "FormFactor": "Touchscreen Smartphone"
-      },
-
-      "cameraDetails": {
-        "RearCamera": {
-          "Main": "48 MP",
-          "UltraWide": "48 MP",
-          "Features": [
-            "Night Mode",
-            "HDR",
-            "Portrait Mode",
-            "Smart HDR",
-            "Optical Image Stabilization"
-          ]
-        },
-        "FrontCamera": {
-          "Resolution": "24 MP",
-          "Features": [
-            "HDR",
-            "Portrait Mode",
-            "4K Video"
-          ]
-        }
-      },
-
-      "batteryDetails": {
-        "Capacity": "Built-in Rechargeable Battery",
-        "Charging": "Fast Charging",
-        "WirelessCharging": "MagSafe",
-        "BatteryType": "Lithium Ion"
-      },
-
       "dimensions": {
-        "Height": "149.6 mm",
-        "Width": "71.5 mm",
-        "Thickness": "7.8 mm",
-        "Weight": "Approx. 170 g"
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
       },
-
       "manufacturerInformation": {
-        "Manufacturer": "Apple Inc.",
-        "CountryOfOrigin": "United States",
-        "ManufacturedBy": "Apple",
-        "Importer": "Apple India Private Limited",
-        "Brand": "Apple"
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
       },
-
       "warranty": {
         "WarrantyPeriod": "1 Year",
         "WarrantyType": "Manufacturer Warranty",
         "WarrantyCoverage": "Manufacturing defects",
-        "ServiceType": "Authorized Apple Service Center"
+        "ServiceType": "Seller service"
       },
-
       "boxContents": [
-        "iPhone 17",
-        "USB Type-C Cable",
-        "SIM Ejector Tool",
-        "Documentation"
+        "L Shape Corner Sofa",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
       ],
-
       "itemDetails": {
-        "ItemType": "Smartphone",
-        "ModelName": "iPhone 17",
-        "ModelYear": "2025",
-        "CountryOfOrigin": "United States",
+        "ItemType": "Sofas",
+        "ModelName": "L Shape Corner Sofa",
         "ProductCondition": "New",
+        "CountryOfOrigin": "India",
         "SuitableFor": [
-          "Personal Use",
-          "Business",
-          "Photography",
-          "Gaming",
-          "Entertainment"
+          "Home",
+          "Office"
         ]
       },
-
       "sellerInformation": {
         "sellerId": "SELLER-001",
-        "sellerName": "Kavi Mobiles",
-        "sellerRating": 4.7
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-003",
+      "sku": "SOF-REC-003",
+      "name": "Recliner Sofa 3 Seater",
+      "brand": "Kavi Furniture",
+      "category": "Sofas",
+      "price": 38999,
+      "originalPrice": 44999,
+      "discountPercentage": 13,
+      "currency": "INR",
+      "stock": 6,
+      "availability": "In Stock",
+      "shortDescription": "Premium sofas designed for modern homes and offices.",
+      "description": "Recliner Sofa 3 Seater made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-003-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Seater",
+        "Material": "Leatherette",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "3 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Recliner Sofa 3 Seater",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Sofas",
+        "ModelName": "Recliner Sofa 3 Seater",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-004",
+      "sku": "SOF-LUV-004",
+      "name": "2 Seater Loveseat Sofa",
+      "brand": "Kavi Furniture",
+      "category": "Sofas",
+      "price": 18999,
+      "originalPrice": 22999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 10,
+      "availability": "In Stock",
+      "shortDescription": "Premium sofas designed for modern homes and offices.",
+      "description": "2 Seater Loveseat Sofa made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-004-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "2 Seater",
+        "Material": "Fabric",
+        "PrimaryColor": "Beige",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "2 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "2 Seater Loveseat Sofa",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Sofas",
+        "ModelName": "2 Seater Loveseat Sofa",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-005",
+      "sku": "SOF-CNV-005",
+      "name": "Convertible Sofa Bed",
+      "brand": "Kavi Furniture",
+      "category": "Sofas",
+      "price": 27999,
+      "originalPrice": 32999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 9,
+      "availability": "In Stock",
+      "shortDescription": "Premium sofas designed for modern homes and offices.",
+      "description": "Convertible Sofa Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-005-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Seater",
+        "Material": "Fabric",
+        "PrimaryColor": "Blue",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "3 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Convertible Sofa Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Sofas",
+        "ModelName": "Convertible Sofa Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-006",
+      "sku": "BED-KNG-006",
+      "name": "King Size Wooden Bed",
+      "brand": "Kavi Furniture",
+      "category": "Beds",
+      "price": 32999,
+      "originalPrice": 38999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 7,
+      "availability": "In Stock",
+      "shortDescription": "Premium beds designed for modern homes and offices.",
+      "description": "King Size Wooden Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-006-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "King",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "King Size Wooden Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Beds",
+        "ModelName": "King Size Wooden Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-007",
+      "sku": "BED-QEN-007",
+      "name": "Queen Size Storage Bed",
+      "brand": "Kavi Furniture",
+      "category": "Beds",
+      "price": 28999,
+      "originalPrice": 34999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 9,
+      "availability": "In Stock",
+      "shortDescription": "Premium beds designed for modern homes and offices.",
+      "description": "Queen Size Storage Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-007-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Queen",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Queen Size Storage Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Beds",
+        "ModelName": "Queen Size Storage Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-008",
+      "sku": "BED-SWD-008",
+      "name": "Solid Wood King Bed",
+      "brand": "Kavi Furniture",
+      "category": "Beds",
+      "price": 45999,
+      "originalPrice": 52999,
+      "discountPercentage": 13,
+      "currency": "INR",
+      "stock": 5,
+      "availability": "In Stock",
+      "shortDescription": "Premium beds designed for modern homes and offices.",
+      "description": "Solid Wood King Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-008-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "King",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Teak",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Solid Wood King Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Beds",
+        "ModelName": "Solid Wood King Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-009",
+      "sku": "BED-HYD-009",
+      "name": "Hydraulic Storage Bed",
+      "brand": "Kavi Furniture",
+      "category": "Beds",
+      "price": 36999,
+      "originalPrice": 42999,
+      "discountPercentage": 14,
+      "currency": "INR",
+      "stock": 6,
+      "availability": "In Stock",
+      "shortDescription": "Premium beds designed for modern homes and offices.",
+      "description": "Hydraulic Storage Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-009-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Queen",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Hydraulic Storage Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Beds",
+        "ModelName": "Hydraulic Storage Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-010",
+      "sku": "BED-KID-010",
+      "name": "Single Kids Bed",
+      "brand": "Kavi Furniture",
+      "category": "Beds",
+      "price": 15999,
+      "originalPrice": 18999,
+      "discountPercentage": 16,
+      "currency": "INR",
+      "stock": 14,
+      "availability": "In Stock",
+      "shortDescription": "Premium beds designed for modern homes and offices.",
+      "description": "Single Kids Bed made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-010-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Single",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Blue",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Single Kids Bed",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Beds",
+        "ModelName": "Single Kids Bed",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-011",
+      "sku": "WAR-3DR-011",
+      "name": "3 Door Wardrobe",
+      "brand": "Kavi Furniture",
+      "category": "Wardrobes",
+      "price": 21999,
+      "originalPrice": 25999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium wardrobes designed for modern homes and offices.",
+      "description": "3 Door Wardrobe made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-011-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "3 Door Wardrobe",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Wardrobes",
+        "ModelName": "3 Door Wardrobe",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-012",
+      "sku": "WAR-4SL-012",
+      "name": "4 Door Sliding Wardrobe",
+      "brand": "Kavi Furniture",
+      "category": "Wardrobes",
+      "price": 34999,
+      "originalPrice": 41999,
+      "discountPercentage": 16,
+      "currency": "INR",
+      "stock": 5,
+      "availability": "In Stock",
+      "shortDescription": "Premium wardrobes designed for modern homes and offices.",
+      "description": "4 Door Sliding Wardrobe made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-012-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "4 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "4 Door Sliding Wardrobe",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Wardrobes",
+        "ModelName": "4 Door Sliding Wardrobe",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-013",
+      "sku": "WAR-2DR-013",
+      "name": "2 Door Bedroom Wardrobe",
+      "brand": "Kavi Furniture",
+      "category": "Wardrobes",
+      "price": 16999,
+      "originalPrice": 19999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 12,
+      "availability": "In Stock",
+      "shortDescription": "Premium wardrobes designed for modern homes and offices.",
+      "description": "2 Door Bedroom Wardrobe made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-013-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "2 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "2 Door Bedroom Wardrobe",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Wardrobes",
+        "ModelName": "2 Door Bedroom Wardrobe",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-014",
+      "sku": "WAR-MIR-014",
+      "name": "Mirror Door Wardrobe",
+      "brand": "Kavi Furniture",
+      "category": "Wardrobes",
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 7,
+      "availability": "In Stock",
+      "shortDescription": "Premium wardrobes designed for modern homes and offices.",
+      "description": "Mirror Door Wardrobe made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-014-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Mirror Door Wardrobe",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Wardrobes",
+        "ModelName": "Mirror Door Wardrobe",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-015",
+      "sku": "WAR-6DR-015",
+      "name": "6 Door Family Wardrobe",
+      "brand": "Kavi Furniture",
+      "category": "Wardrobes",
+      "price": 42999,
+      "originalPrice": 49999,
+      "discountPercentage": 14,
+      "currency": "INR",
+      "stock": 4,
+      "availability": "In Stock",
+      "shortDescription": "Premium wardrobes designed for modern homes and offices.",
+      "description": "6 Door Family Wardrobe made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-015-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "6 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Dark Walnut",
+        "Assembly": "Required",
+        "RoomType": "Bedroom",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "6 Door Family Wardrobe",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Wardrobes",
+        "ModelName": "6 Door Family Wardrobe",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-016",
+      "sku": "DIN-6ST-016",
+      "name": "6 Seater Dining Table",
+      "brand": "Kavi Furniture",
+      "category": "Dining Tables",
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium dining tables designed for modern homes and offices.",
+      "description": "6 Seater Dining Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-016-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "6 Seater",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Teak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "6 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "6 Seater Dining Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Dining Tables",
+        "ModelName": "6 Seater Dining Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-017",
+      "sku": "DIN-4ST-017",
+      "name": "4 Seater Dining Set",
+      "brand": "Kavi Furniture",
+      "category": "Dining Tables",
+      "price": 18999,
+      "originalPrice": 22999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 11,
+      "availability": "In Stock",
+      "shortDescription": "Premium dining tables designed for modern homes and offices.",
+      "description": "4 Seater Dining Set made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-017-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "4 Seater",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "4 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "4 Seater Dining Set",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Dining Tables",
+        "ModelName": "4 Seater Dining Set",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-018",
+      "sku": "DIN-8ST-018",
+      "name": "8 Seater Dining Table",
+      "brand": "Kavi Furniture",
+      "category": "Dining Tables",
+      "price": 31999,
+      "originalPrice": 37999,
+      "discountPercentage": 16,
+      "currency": "INR",
+      "stock": 5,
+      "availability": "In Stock",
+      "shortDescription": "Premium dining tables designed for modern homes and offices.",
+      "description": "8 Seater Dining Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-018-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "8 Seater",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "8 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "8 Seater Dining Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Dining Tables",
+        "ModelName": "8 Seater Dining Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-019",
+      "sku": "DIN-RND-019",
+      "name": "Round Dining Table",
+      "brand": "Kavi Furniture",
+      "category": "Dining Tables",
+      "price": 15999,
+      "originalPrice": 18999,
+      "discountPercentage": 16,
+      "currency": "INR",
+      "stock": 9,
+      "availability": "In Stock",
+      "shortDescription": "Premium dining tables designed for modern homes and offices.",
+      "description": "Round Dining Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-019-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "4 Seater",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Natural",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "4 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Round Dining Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Dining Tables",
+        "ModelName": "Round Dining Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-020",
+      "sku": "DIN-EXT-020",
+      "name": "Extendable Dining Table",
+      "brand": "Kavi Furniture",
+      "category": "Dining Tables",
+      "price": 27999,
+      "originalPrice": 32999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 6,
+      "availability": "In Stock",
+      "shortDescription": "Premium dining tables designed for modern homes and offices.",
+      "description": "Extendable Dining Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-020-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "6 Seater",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "6 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Extendable Dining Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Dining Tables",
+        "ModelName": "Extendable Dining Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-021",
+      "sku": "CHR-ERG-021",
+      "name": "Ergonomic Office Chair",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 8999,
+      "originalPrice": 10999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 20,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Ergonomic Office Chair made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-021-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Adjustable",
+        "Material": "Mesh",
+        "PrimaryColor": "Black",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Ergonomic Office Chair",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Ergonomic Office Chair",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-022",
+      "sku": "CHR-EXE-022",
+      "name": "Executive Office Chair",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 12999,
+      "originalPrice": 15999,
+      "discountPercentage": 19,
+      "currency": "INR",
+      "stock": 12,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Executive Office Chair made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-022-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "High Back",
+        "Material": "Leatherette",
+        "PrimaryColor": "Black",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Executive Office Chair",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Executive Office Chair",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-023",
+      "sku": "CHR-VIS-023",
+      "name": "Visitor Chair Set",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 6999,
+      "originalPrice": 8999,
+      "discountPercentage": 22,
+      "currency": "INR",
+      "stock": 25,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "Visitor Chair Set made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-023-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Set of 2",
+        "Material": "Fabric",
+        "PrimaryColor": "Grey",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Visitor Chair Set",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "Visitor Chair Set",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-024",
+      "sku": "CHR-ACC-024",
+      "name": "Accent Lounge Chair",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 10999,
+      "originalPrice": 13999,
+      "discountPercentage": 21,
+      "currency": "INR",
+      "stock": 10,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "Accent Lounge Chair made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-024-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Single",
+        "Material": "Fabric",
+        "PrimaryColor": "Green",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Accent Lounge Chair",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "Accent Lounge Chair",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-025",
+      "sku": "CHR-ROC-025",
+      "name": "Rocking Chair",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 11999,
+      "originalPrice": 14999,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "Rocking Chair made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-025-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Single",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Rocking Chair",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "Rocking Chair",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-026",
+      "sku": "CHR-STU-026",
+      "name": "Study Chair",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 5999,
+      "originalPrice": 7499,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 18,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "Study Chair made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-026-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Adjustable",
+        "Material": "Mesh",
+        "PrimaryColor": "Blue",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Study Chair",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "Study Chair",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-027",
+      "sku": "DSK-EXE-027",
+      "name": "Executive Office Desk",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 17999,
+      "originalPrice": 21999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 7,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Executive Office Desk made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-027-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Large",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Executive Office Desk",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Executive Office Desk",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-028",
+      "sku": "DSK-CMP-028",
+      "name": "Computer Work Desk",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 9999,
+      "originalPrice": 12999,
+      "discountPercentage": 23,
+      "currency": "INR",
+      "stock": 14,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Computer Work Desk made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-028-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Computer Work Desk",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Computer Work Desk",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-029",
+      "sku": "DSK-LSH-029",
+      "name": "L Shaped Office Desk",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 14999,
+      "originalPrice": 17999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 9,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "L Shaped Office Desk made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-029-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "L Shape",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "L Shaped Office Desk",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "L Shaped Office Desk",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-030",
+      "sku": "DSK-HAD-030",
+      "name": "Height Adjustable Desk",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 22999,
+      "originalPrice": 27999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 6,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Height Adjustable Desk made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-030-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Adjustable",
+        "Material": "Steel + Wood",
+        "PrimaryColor": "Black",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Height Adjustable Desk",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Height Adjustable Desk",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-031",
+      "sku": "TVU-WAL-031",
+      "name": "Wall Mounted TV Unit",
+      "brand": "Kavi Furniture",
+      "category": "TV Units",
+      "price": 12999,
+      "originalPrice": 15999,
+      "discountPercentage": 19,
+      "currency": "INR",
+      "stock": 10,
+      "availability": "In Stock",
+      "shortDescription": "Premium tv units designed for modern homes and offices.",
+      "description": "Wall Mounted TV Unit made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-031-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Wall Mounted TV Unit",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "TV Units",
+        "ModelName": "Wall Mounted TV Unit",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-032",
+      "sku": "TVU-CON-032",
+      "name": "Modern TV Console",
+      "brand": "Kavi Furniture",
+      "category": "TV Units",
+      "price": 16999,
+      "originalPrice": 19999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium tv units designed for modern homes and offices.",
+      "description": "Modern TV Console made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-032-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Large",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Modern TV Console",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "TV Units",
+        "ModelName": "Modern TV Console",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-033",
+      "sku": "TVU-FLT-033",
+      "name": "Floating TV Cabinet",
+      "brand": "Kavi Furniture",
+      "category": "TV Units",
+      "price": 10999,
+      "originalPrice": 13999,
+      "discountPercentage": 21,
+      "currency": "INR",
+      "stock": 12,
+      "availability": "In Stock",
+      "shortDescription": "Premium tv units designed for modern homes and offices.",
+      "description": "Floating TV Cabinet made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-033-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Floating TV Cabinet",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "TV Units",
+        "ModelName": "Floating TV Cabinet",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-034",
+      "sku": "TVU-ENT-034",
+      "name": "Entertainment Center",
+      "brand": "Kavi Furniture",
+      "category": "TV Units",
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 6,
+      "availability": "In Stock",
+      "shortDescription": "Premium tv units designed for modern homes and offices.",
+      "description": "Entertainment Center made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-034-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Large",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Dark Brown",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Entertainment Center",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "TV Units",
+        "ModelName": "Entertainment Center",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-035",
+      "sku": "CFT-LFT-035",
+      "name": "Lift Top Coffee Table",
+      "brand": "Kavi Furniture",
+      "category": "Coffee Tables",
+      "price": 8999,
+      "originalPrice": 10999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 13,
+      "availability": "In Stock",
+      "shortDescription": "Premium coffee tables designed for modern homes and offices.",
+      "description": "Lift Top Coffee Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-035-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Lift Top Coffee Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Coffee Tables",
+        "ModelName": "Lift Top Coffee Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-036",
+      "sku": "CFT-RND-036",
+      "name": "Round Coffee Table",
+      "brand": "Kavi Furniture",
+      "category": "Coffee Tables",
+      "price": 6999,
+      "originalPrice": 8999,
+      "discountPercentage": 22,
+      "currency": "INR",
+      "stock": 15,
+      "availability": "In Stock",
+      "shortDescription": "Premium coffee tables designed for modern homes and offices.",
+      "description": "Round Coffee Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-036-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Small",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Natural",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Round Coffee Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Coffee Tables",
+        "ModelName": "Round Coffee Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-037",
+      "sku": "CFT-NST-037",
+      "name": "Nested Coffee Tables Set",
+      "brand": "Kavi Furniture",
+      "category": "Coffee Tables",
+      "price": 7999,
+      "originalPrice": 9999,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 11,
+      "availability": "In Stock",
+      "shortDescription": "Premium coffee tables designed for modern homes and offices.",
+      "description": "Nested Coffee Tables Set made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-037-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Set of 2",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Nested Coffee Tables Set",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Coffee Tables",
+        "ModelName": "Nested Coffee Tables Set",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-038",
+      "sku": "CFT-GLS-038",
+      "name": "Glass Top Coffee Table",
+      "brand": "Kavi Furniture",
+      "category": "Coffee Tables",
+      "price": 9999,
+      "originalPrice": 11999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium coffee tables designed for modern homes and offices.",
+      "description": "Glass Top Coffee Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-038-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Tempered Glass + Metal",
+        "PrimaryColor": "Black",
+        "Assembly": "Required",
+        "RoomType": "Living Room",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Glass Top Coffee Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Coffee Tables",
+        "ModelName": "Glass Top Coffee Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-039",
+      "sku": "BKS-5TR-039",
+      "name": "5 Tier Bookshelf",
+      "brand": "Kavi Furniture",
+      "category": "Bookshelves",
+      "price": 6999,
+      "originalPrice": 8999,
+      "discountPercentage": 22,
+      "currency": "INR",
+      "stock": 14,
+      "availability": "In Stock",
+      "shortDescription": "Premium bookshelves designed for modern homes and offices.",
+      "description": "5 Tier Bookshelf made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-039-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "5 Tier",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "5 Tier Bookshelf",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Bookshelves",
+        "ModelName": "5 Tier Bookshelf",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-040",
+      "sku": "BKS-6TR-040",
+      "name": "6 Tier Bookshelf",
+      "brand": "Kavi Furniture",
+      "category": "Bookshelves",
+      "price": 8499,
+      "originalPrice": 10499,
+      "discountPercentage": 19,
+      "currency": "INR",
+      "stock": 10,
+      "availability": "In Stock",
+      "shortDescription": "Premium bookshelves designed for modern homes and offices.",
+      "description": "6 Tier Bookshelf made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-040-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "6 Tier",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "6 Tier Bookshelf",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Bookshelves",
+        "ModelName": "6 Tier Bookshelf",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-041",
+      "sku": "BKS-CNR-041",
+      "name": "Corner Bookshelf",
+      "brand": "Kavi Furniture",
+      "category": "Bookshelves",
+      "price": 5999,
+      "originalPrice": 7499,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 16,
+      "availability": "In Stock",
+      "shortDescription": "Premium bookshelves designed for modern homes and offices.",
+      "description": "Corner Bookshelf made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-041-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Corner",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Corner Bookshelf",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Bookshelves",
+        "ModelName": "Corner Bookshelf",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-042",
+      "sku": "STG-GLS-042",
+      "name": "Glass Door Display Cabinet",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 13999,
+      "originalPrice": 16999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 7,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "Glass Door Display Cabinet made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-042-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "2 Door",
+        "Material": "Engineered Wood + Glass",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Glass Door Display Cabinet",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "Glass Door Display Cabinet",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-043",
+      "sku": "STG-5DR-043",
+      "name": "5 Drawer Storage Chest",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 10999,
+      "originalPrice": 12999,
+      "discountPercentage": 15,
+      "currency": "INR",
+      "stock": 12,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "5 Drawer Storage Chest made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-043-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "5 Drawer",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "White",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "5 Drawer Storage Chest",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "5 Drawer Storage Chest",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-044",
+      "sku": "STG-SHO-044",
+      "name": "Shoe Storage Cabinet",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 8999,
+      "originalPrice": 10999,
+      "discountPercentage": 18,
+      "currency": "INR",
+      "stock": 15,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "Shoe Storage Cabinet made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-044-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Oak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Shoe Storage Cabinet",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "Shoe Storage Cabinet",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-045",
+      "sku": "STG-BEN-045",
+      "name": "Entryway Storage Bench",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 7999,
+      "originalPrice": 9999,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 9,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "Entryway Storage Bench made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-045-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "2 Door",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Grey",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Entryway Storage Bench",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "Entryway Storage Bench",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-046",
+      "sku": "STG-BED-046",
+      "name": "Bedside Table",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 4999,
+      "originalPrice": 5999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 20,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "Bedside Table made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-046-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "2 Drawer",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Walnut",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Bedside Table",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "Bedside Table",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-047",
+      "sku": "DSK-STG-047",
+      "name": "Computer Table With Storage",
+      "brand": "Kavi Furniture",
+      "category": "Office Furniture",
+      "price": 11999,
+      "originalPrice": 14999,
+      "discountPercentage": 20,
+      "currency": "INR",
+      "stock": 11,
+      "availability": "In Stock",
+      "shortDescription": "Premium office furniture designed for modern homes and offices.",
+      "description": "Computer Table With Storage made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-047-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Medium",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Computer Table With Storage",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Office Furniture",
+        "ModelName": "Computer Table With Storage",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-048",
+      "sku": "STG-BAR-048",
+      "name": "Bar Cabinet With Storage",
+      "brand": "Kavi Furniture",
+      "category": "Storage",
+      "price": 19999,
+      "originalPrice": 23999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 5,
+      "availability": "In Stock",
+      "shortDescription": "Premium storage designed for modern homes and offices.",
+      "description": "Bar Cabinet With Storage made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-048-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Large",
+        "Material": "Engineered Wood",
+        "PrimaryColor": "Dark Walnut",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Bar Cabinet With Storage",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Storage",
+        "ModelName": "Bar Cabinet With Storage",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-049",
+      "sku": "CHR-OUT-049",
+      "name": "Outdoor Patio Chair Set",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 12999,
+      "originalPrice": 15999,
+      "discountPercentage": 19,
+      "currency": "INR",
+      "stock": 10,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "Outdoor Patio Chair Set made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-049-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "Set of 2",
+        "Material": "Metal + Wicker",
+        "PrimaryColor": "Brown",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "Not Applicable",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "Outdoor Patio Chair Set",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "Outdoor Patio Chair Set",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
+      }
+    },
+    {
+      "id": "FUR-050",
+      "sku": "BEN-WOD-050",
+      "name": "3 Seater Wooden Bench",
+      "brand": "Kavi Furniture",
+      "category": "Chairs",
+      "price": 9999,
+      "originalPrice": 11999,
+      "discountPercentage": 17,
+      "currency": "INR",
+      "stock": 8,
+      "availability": "In Stock",
+      "shortDescription": "Premium chairs designed for modern homes and offices.",
+      "description": "3 Seater Wooden Bench made with quality materials and designed for comfortable, practical everyday use.",
+      "image": "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-1.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-1.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-2.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-3.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-4.jpg",
+        "https://raw.githubusercontent.com/vvedhakavi/seller-01-furniture/main/images/furniture-050-5.jpg"
+      ],
+      "specifications": {
+        "ProductType": "3 Seater",
+        "Material": "Solid Wood",
+        "PrimaryColor": "Teak",
+        "Assembly": "Required",
+        "RoomType": "Home & Office",
+        "Finish": "Premium Finish",
+        "SeatingCapacity": "3 Seater",
+        "CareInstructions": "Wipe with a soft dry cloth"
+      },
+      "dimensions": {
+        "Height": "Standard",
+        "Width": "Standard",
+        "Depth": "Standard",
+        "Weight": "Varies by model"
+      },
+      "manufacturerInformation": {
+        "Manufacturer": "Kavi Furniture",
+        "Brand": "Kavi Furniture",
+        "CountryOfOrigin": "India",
+        "ManufacturedBy": "Kavi Furniture Manufacturing",
+        "Importer": "Not Applicable"
+      },
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Seller service"
+      },
+      "boxContents": [
+        "3 Seater Wooden Bench",
+        "Assembly Hardware",
+        "Assembly Instructions",
+        "Warranty Card"
+      ],
+      "itemDetails": {
+        "ItemType": "Chairs",
+        "ModelName": "3 Seater Wooden Bench",
+        "ProductCondition": "New",
+        "CountryOfOrigin": "India",
+        "SuitableFor": [
+          "Home",
+          "Office"
+        ]
+      },
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Furniture",
+        "sellerRating": 4.6
       }
     }
-  ],
-
-  "categories": [
-    "Mobiles",
-    "Smartphones",
-    "Android Phones",
-    "iPhones",
-    "5G Phones"
   ]
 }
