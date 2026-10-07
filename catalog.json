@@ -4,40 +4,288 @@
       "id": "P001",
       "name": "Samsung Galaxy S25",
       "sku": "SAM-S25-001",
+      "brand": "Samsung",
+      "category": "Mobiles",
+
       "price": 79999,
       "originalPrice": 84999,
+      "discountPercentage": 6,
+      "currency": "INR",
+
       "stock": 25,
-      "category": "Mobiles",
-      "brand": "Samsung",
+      "availability": "In Stock",
+
+      "shortDescription": "Premium 5G smartphone with advanced camera and powerful performance.",
+
+      "description": "Samsung Galaxy S25 is a premium smartphone designed for high performance, photography, entertainment and everyday productivity.",
+
       "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
-      "description": "Samsung Galaxy S25 smartphone",
+
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd"
+      ],
+
+      "specifications": {
+        "Display": "6.2 inch Dynamic AMOLED 2X",
+        "Resolution": "2340 x 1080 pixels",
+        "RefreshRate": "120 Hz",
+        "Processor": "Qualcomm Snapdragon",
+        "RAM": "12 GB",
+        "Storage": "256 GB",
+        "ExpandableStorage": "Not Supported",
+        "OperatingSystem": "Android",
+        "OSVersion": "Android 15",
+        "RearCamera": "50 MP + 12 MP + 10 MP",
+        "FrontCamera": "12 MP",
+        "VideoRecording": "8K Video Recording",
+        "Battery": "4000 mAh",
+        "Charging": "Fast Charging",
+        "WirelessCharging": "Supported",
+        "Network": "5G",
+        "SIM": "Dual SIM",
+        "WiFi": "Wi-Fi 7",
+        "Bluetooth": "Bluetooth 5.4",
+        "USB": "USB Type-C",
+        "NFC": "Supported",
+        "FingerprintSensor": "Under Display",
+        "WaterResistance": "IP68"
+      },
+
       "attributes": {
-        "RAM": "12GB",
-        "Storage": "256GB",
-        "Color": "Black"
+        "Color": "Black",
+        "Material": "Glass and Aluminium",
+        "ModelNumber": "SM-S931B",
+        "FormFactor": "Touchscreen Smartphone"
+      },
+
+      "cameraDetails": {
+        "RearCamera": {
+          "Main": "50 MP",
+          "UltraWide": "12 MP",
+          "Telephoto": "10 MP",
+          "Features": [
+            "OIS",
+            "Night Mode",
+            "HDR",
+            "Portrait Mode",
+            "AI Camera"
+          ]
+        },
+        "FrontCamera": {
+          "Resolution": "12 MP",
+          "Features": [
+            "HDR",
+            "Portrait Mode",
+            "4K Video"
+          ]
+        }
+      },
+
+      "batteryDetails": {
+        "Capacity": "4000 mAh",
+        "Charging": "Fast Charging",
+        "WirelessCharging": "Yes",
+        "BatteryType": "Lithium Ion"
+      },
+
+      "dimensions": {
+        "Height": "146.9 mm",
+        "Width": "70.5 mm",
+        "Thickness": "7.2 mm",
+        "Weight": "162 g"
+      },
+
+      "manufacturerInformation": {
+        "Manufacturer": "Samsung Electronics",
+        "CountryOfOrigin": "South Korea",
+        "ManufacturedBy": "Samsung Electronics",
+        "Importer": "Samsung India Electronics Pvt. Ltd.",
+        "Brand": "Samsung"
+      },
+
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Authorized Samsung Service Center"
+      },
+
+      "boxContents": [
+        "Samsung Galaxy S25",
+        "USB Type-C Cable",
+        "SIM Ejector Tool",
+        "Quick Start Guide",
+        "Warranty Card"
+      ],
+
+      "itemDetails": {
+        "ItemType": "Smartphone",
+        "ModelName": "Galaxy S25",
+        "ModelYear": "2025",
+        "CountryOfOrigin": "South Korea",
+        "ProductCondition": "New",
+        "SuitableFor": [
+          "Personal Use",
+          "Business",
+          "Gaming",
+          "Photography",
+          "Entertainment"
+        ]
+      },
+
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Mobiles",
+        "sellerRating": 4.6
       }
     },
+
     {
       "id": "P002",
       "name": "iPhone 17",
       "sku": "IPH-17-001",
+      "brand": "Apple",
+      "category": "Mobiles",
+
       "price": 89999,
       "originalPrice": 94999,
+      "discountPercentage": 5,
+      "currency": "INR",
+
       "stock": 15,
-      "category": "Mobiles",
-      "brand": "Apple",
+      "availability": "In Stock",
+
+      "shortDescription": "Premium Apple smartphone with advanced camera, powerful processor and 5G connectivity.",
+
+      "description": "iPhone 17 is a premium smartphone designed for photography, performance, entertainment and everyday use.",
+
       "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
-      "description": "Apple iPhone",
+
+      "images": [
+        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+      ],
+
+      "specifications": {
+        "Display": "6.3 inch Super Retina XDR",
+        "Resolution": "2622 x 1206 pixels",
+        "RefreshRate": "120 Hz",
+        "Processor": "Apple A19",
+        "RAM": "8 GB",
+        "Storage": "256 GB",
+        "ExpandableStorage": "Not Supported",
+        "OperatingSystem": "iOS",
+        "OSVersion": "iOS 26",
+        "RearCamera": "48 MP + 48 MP",
+        "FrontCamera": "24 MP",
+        "VideoRecording": "4K Video Recording",
+        "Battery": "Built-in Rechargeable Battery",
+        "Charging": "Fast Charging",
+        "WirelessCharging": "MagSafe Supported",
+        "Network": "5G",
+        "SIM": "Dual SIM / eSIM",
+        "WiFi": "Wi-Fi",
+        "Bluetooth": "Bluetooth",
+        "USB": "USB Type-C",
+        "NFC": "Supported",
+        "FaceID": "Supported",
+        "WaterResistance": "IP68"
+      },
+
       "attributes": {
-        "Storage": "256GB",
-        "Color": "Blue"
+        "Color": "Blue",
+        "Material": "Aluminium and Glass",
+        "ModelNumber": "A0000",
+        "FormFactor": "Touchscreen Smartphone"
+      },
+
+      "cameraDetails": {
+        "RearCamera": {
+          "Main": "48 MP",
+          "UltraWide": "48 MP",
+          "Features": [
+            "Night Mode",
+            "HDR",
+            "Portrait Mode",
+            "Smart HDR",
+            "Optical Image Stabilization"
+          ]
+        },
+        "FrontCamera": {
+          "Resolution": "24 MP",
+          "Features": [
+            "HDR",
+            "Portrait Mode",
+            "4K Video"
+          ]
+        }
+      },
+
+      "batteryDetails": {
+        "Capacity": "Built-in Rechargeable Battery",
+        "Charging": "Fast Charging",
+        "WirelessCharging": "MagSafe",
+        "BatteryType": "Lithium Ion"
+      },
+
+      "dimensions": {
+        "Height": "149.6 mm",
+        "Width": "71.5 mm",
+        "Thickness": "7.8 mm",
+        "Weight": "Approx. 170 g"
+      },
+
+      "manufacturerInformation": {
+        "Manufacturer": "Apple Inc.",
+        "CountryOfOrigin": "United States",
+        "ManufacturedBy": "Apple",
+        "Importer": "Apple India Private Limited",
+        "Brand": "Apple"
+      },
+
+      "warranty": {
+        "WarrantyPeriod": "1 Year",
+        "WarrantyType": "Manufacturer Warranty",
+        "WarrantyCoverage": "Manufacturing defects",
+        "ServiceType": "Authorized Apple Service Center"
+      },
+
+      "boxContents": [
+        "iPhone 17",
+        "USB Type-C Cable",
+        "SIM Ejector Tool",
+        "Documentation"
+      ],
+
+      "itemDetails": {
+        "ItemType": "Smartphone",
+        "ModelName": "iPhone 17",
+        "ModelYear": "2025",
+        "CountryOfOrigin": "United States",
+        "ProductCondition": "New",
+        "SuitableFor": [
+          "Personal Use",
+          "Business",
+          "Photography",
+          "Gaming",
+          "Entertainment"
+        ]
+      },
+
+      "sellerInformation": {
+        "sellerId": "SELLER-001",
+        "sellerName": "Kavi Mobiles",
+        "sellerRating": 4.7
       }
     }
   ],
+
   "categories": [
     "Mobiles",
     "Smartphones",
-    "Samsung",
-    "Apple"
+    "Android Phones",
+    "iPhones",
+    "5G Phones"
   ]
 }
